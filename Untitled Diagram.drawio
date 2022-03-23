@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-03-22T09:50:33.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" version="17.1.3" etag="p0ZGMGJMUZ6L_IjxldxN" type="github"><diagram id="moAKaSDOnuZDQb215JkF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-23T08:44:07.680Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="18h0sl9aLE6oJj_P1Gnl" version="17.1.3" type="github">
+  <diagram id="moAKaSDOnuZDQb215JkF" name="Page-1">
+    <mxGraphModel dx="1426" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yZ_Omnv0s8lDQxfRDBI--2" value="RabbitMQ" style="shape=tapeData;whiteSpace=wrap;html=1;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="250" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yZ_Omnv0s8lDQxfRDBI--4" value="推送消息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yZ_Omnv0s8lDQxfRDBI--3" target="yZ_Omnv0s8lDQxfRDBI--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yZ_Omnv0s8lDQxfRDBI--3" value="定时触发产生调度消息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yZ_Omnv0s8lDQxfRDBI--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yZ_Omnv0s8lDQxfRDBI--5" target="yZ_Omnv0s8lDQxfRDBI--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yZ_Omnv0s8lDQxfRDBI--5" value="{&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;taskID&quot;: &quot;xxxx&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;triggerTime&quot;:&quot;xxxx&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &quot;expireTime&quot;:&quot;xxxxx&quot;&lt;br&gt;}" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="445" y="405" width="135" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yZ_Omnv0s8lDQxfRDBI--10" value="消息体" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="380" width="50" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
